@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+  }
+.backcolor{
+    background-image: linear-gradient(to right,rgb(6, 89, 255), #4ab4ce);
+    width: 100%;
+    height: 614.4px;
+}
+.navbar{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+}
+.navbar p{
+    font-size: 20px;
+}
+.navbar ul{
+    display: flex;
+    gap:40px
+}
+.navbar ul li{
+    list-style-type: none;
+}
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+.navbar button{
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    width: 105px;
+    height: 32px;
+    position: relative;
+    top: -5px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    gap: 88px;
+    margin-top: 80px;
+}
+.main .info{
+    color: white;
+    width: 380px;
+}
+.main .info h1{
+    font-size: 48px;
+    font-weight: lighter;
+    margin-bottom: 20px;
+    margin-top: 70px;
+}
+.main .info p{
+    line-height: 25px;
+    font-weight: lighter;
+    margin-bottom: 20px;
+    color: rgba(255, 255, 255, 0.8);
+}
+.info button{
+    color: white;
+    background-color: #4ca746;
+    width: 145px;
+    height: 37px;
+    border-radius: 20px;
+    border: none;
+    font-size: 12px;
+}
+.signup{
+    width: 340px;
+    height: 372px;
+    background-color: white;
+    border-radius: 5px;
+    padding-top: 40px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.signup h2{
+    font-weight: lighter;
+    margin-bottom: 25px;
+}
+.signup form{
+    
+
+}
+.signup input{
+    background-color: #f2f2f2;
+    border: none;
+    margin-bottom: 15px;
+    width: 260px;
+    height: 36px;
+    padding-left: 10px;
+}
+.signup select{
+    width: 260px;
+    height: 36px;
+    background-color: #f2f2f2;
+    border: none;
+    margin-bottom: 15px;
+    padding-left: 5px;
+}
+.signup button{
+    width: 260px;
+    height: 35px;
+    border: none;
+    border-radius: 18px;
+    background-color: #167af6;
+    color: white;
+    font-size: 16px;
+    box-shadow: 1px 8px 9px rgba(22,122,246,0.4);
+}
+.whitecolor{
+    background-color: white;
+    width: 101%;
+    height: 110px;
+    transform: rotate(-3deg);
+    position: relative;
+    top: -40px;
+}

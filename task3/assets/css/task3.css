@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+}
+.main{
+    text-align: center;
+    background-color: #fbfbf9;
+    width: 350px;
+    height: 450px;
+    margin-top: 60px;
+    padding-top: 40px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.main .heading{
+    line-height: 50px;
+    font-size: 64px;
+    font-family: "Great Vibes";
+}
+.main .first-row{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.second-row span{
+    font-size: 12px;   
+    font-family: sans-serif;
+}
